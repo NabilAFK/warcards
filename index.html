@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="theme-color" content="#36393F">
+        <meta property="og:image:url" content="https://i.ibb.co/n0DbR7k/Untitled-28-modified.png">
+        <meta property="og:image:secure_url" content="https://i.ibb.co/n0DbR7k/Untitled-28-modified.png">
+        <meta name="description" content="Play War Cards online for free, unblocked!">
+        <link rel="icon" type="image/jpeg" sizes="180x180" href="https://i.ibb.co/n0DbR7k/Untitled-28-modified.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="styles/reset.css">
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous"
+    />
+        <link rel="stylesheet" href="styles/style.css" />
+        <title>War Card Game</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row title-row">
+                <h1 class="title col-12">War Cards</h1>
+            </div>
+            <div class="row first-row ">
+                <div class="left-deck col-4">
+                    <img src="https://i.pinimg.com/originals/a4/77/8a/a4778a31909f959501cc180b8874d164.png" alt="">
+                    <div class='mobile-scoreboard'>
+                        <div class="card-count-container">
+                            <h3>Player Count:</h3>
+                            <h3 class="player-card-count"></h3>
+                        </div>
+                        <div class="card-count-container">
+                            <h3>Computer Count:</h3>
+                            <h3 class="media-count"></h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col middle-div ">
+                    <div class="card-selections">
+                        <div class="player-card">
+                            <h1>Player:</h1>
+                            <h2 class="player-card-text">&nbsp;</h2>
+                        </div>
+                        <div class='computer-card'>
+                            <h1>Computer:</h1>
+                            <h2 class="computer-card-text">&nbsp;</h2>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-outline-primary">Draw Cards</button>
+                    <h3 class="tie-pot-title">Pot of Cards:</h3>
+                    <h3 class="tie-pot">0</h3>
+                    <h3 class="round-status"></h3>
+                </div>
+                <div class="right-deck col-4">
+                    <img src="https://i.pinimg.com/originals/a4/77/8a/a4778a31909f959501cc180b8874d164.png" alt="">
+                    <div class="card-count-container">
+                        <h3>Computer Count:</h3>
+                        <h3 class="computer-card-count"></h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row second-row"></div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"
+        ></script>
+        <script src="main.js"></script>
+    </body>
+</html>
